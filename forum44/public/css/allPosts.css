@@ -1,0 +1,60 @@
+:root {
+    --vermelho: #FF0000;
+    --bege: #F5F5DC;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}   
+
+
+.containerAllPosts {
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   margin-bottom: 100px;
+}
+
+.texth2{
+
+    align-items: start;
+    text-align: start;
+}
+
+.titlePost{
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: start;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.textPost > p{
+
+    justify-content: start;
+    text-align: start;
+}
+ 
+.user-list{
+    padding: 2rem; 
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--bege);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+
+.login-title {
+    
+    color: #FFF;
+    margin-bottom: 1.5rem;
+}

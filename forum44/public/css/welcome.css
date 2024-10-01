@@ -1,0 +1,43 @@
+:root {
+    --vermelho: #FF0000;
+    --bege: #F5F5DC;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.text h2, .text p,.image-item .image-text {
+    color: #000000;
+}
+
+
+
+@media (max-width: 1023px){
+    .slider-wrapper .slide-button {
+        display: none!important;
+    }
+
+    .slider-wrapper .image-list{
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .slider-wrapper .image-list .image-item{
+        display: inline-block;
+        text-align: center;
+        width: 225px;
+        height: 80px;
+    }
+
+   
+    .slider-scrollbar .scrollbar-thumb {
+        width: 20%;
+    }
+}
